@@ -31,5 +31,5 @@ This is a simple Java-based e-commerce application. It models different types of
 
 - Finally, full good test
 ![alt text](./img/GoodTest.png)
-![alt text](./img/Invoice.png)
+  ![alt text](./img/NewInvoice.png)
 

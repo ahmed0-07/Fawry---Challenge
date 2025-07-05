@@ -83,7 +83,8 @@ public class Cart {
         System.out.println("Subtotal      " + total_price);
         if(!shipments.isEmpty())
             System.out.println("Shipping      " + 30);
-        System.out.println("Total      " + total_price + (!shipments.isEmpty() ? 30 : 0));
+        total_price += (!shipments.isEmpty() ? 30 : 0);
+        System.out.println("Total      " + total_price);
 
         if(!shipments.isEmpty()){
             ShipService shipService = new ShipService();
